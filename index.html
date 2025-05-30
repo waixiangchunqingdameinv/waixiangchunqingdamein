@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <div class="basic">
+                <h1>姓名</h1>
+                    <h2>前端开发工程师</h2>
+            </div>
+            <div class="images">
+            <img src="img/nini.png" width="150px">
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>个人信息</h3>
+            <div class="info-item">
+                <span class="iconfont">&#xe636;</span>
+                <p>nini@qq.com</p>
+            </div>
+
+            <div class="info-item">
+                <span class="iconfont">&#xe601;</span>
+            <p>23456789123</p>
+            </div>
+            <div class="info-item">
+                <span class="iconfont">&#xe617;</span>
+    <p>清华大学</p>
+    </div>
+</div>
+  
+<div class="section">
+    <h3>学习经历</h3>
+    <p> 2018-2021   清华附中</p>
+    <p>2021-至今    清华大学</p>
+    </div>
+
+    <div class="section">
+        <h3>教育背景</h3>
+        <p>本科学历--计算机网络技术  主修：JavaScript, 网页设计，UI，java,C++等学科</p>
+
+        </div>
+
+
+        <div class="section">
+            <h3>技能</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>主修：JavaScript</li>
+                <li>MySql</li>
+
+            </ul>
+        </div>
+        <div class="section">
+            <h3>视频展示</h3>
+          <div class="video">
+              <video id="resume-viode" controls>
+                  <source src="viode/zzq.mp4" type="video/mp4">
+              </video>
+          </div>
+        <script>
+            var video=document.getElementById("resume-viode");
+            video.style.width="90%";
+            video.style,backgroundColor="red";
+            video.style.padding="5px";
+            document.addEventListener('keydown',(event)=>{
+            if(event.code==='Space'|| event.keyCode===32){
+            event.preventDefault();
+            if(video.paused){
+                video.play();
+            
+            }else {
+                video.pause();
+            }
+            }
+            })
+
+        </script>
+            </div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: mediumblue;
+    background-color: mistyrose;
+
+}
+
+.resume{
+    max-width: 800px;
+    margin:50px  auto;
+    background-color: moccasin;
+    box-shadow: 0  0  20 rgb(32, 29, 29);
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.header{
+    background-color: turquoise;
+    color: thistle;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.section{
+    padding:30px;
+    border-bottom: 1px solid #eee;
+}
+.section h3{
+    font-size: 24px;
+    color: turquoise;
+    margin-bottom: 20px;
+    position: relative;
+}
+.section h3::before{
+    content: '';
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 3px;
+    background-color:turquoise ;
+
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('font/iconfont.ttf?t=1744007286145') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: turquoise;
+    font-weight: bolder;
+    margin-right: 10px;
+  }
+  .info-item{
+      display: flex;
+      align-items: center;
+  }
+  .section ul{
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+  .section ul li{
+      background-color: turquoise;
+      color: rgb(35, 0, 163);
+      padding: 8px 15px;
+      margin: 0px 10px 10px 0;
+      border-radius: 20px;
+      transition: all 0.3s ease-in;
+
+  }
+  .section ul li:hover{
+      background-color: darkorange;
+
+  }
+  .video{
+      width:100%;
+  }

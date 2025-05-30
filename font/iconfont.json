@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "666494",
+      "name": "邮件图标",
+      "font_class": "youjiantubiao",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "6629965",
+      "name": "地址图标",
+      "font_class": "dizhitubiao",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "29094745",
+      "name": "电话图标",
+      "font_class": "dianhuatubiao",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
